@@ -23,8 +23,8 @@ function onFormInput(evt) {
   localStorage.setItem(FORM_KEY, JSON.stringify(formData));
 }
 function setLocallyStoredDataForm() {
-  const locStor = JSON.parse(localStorage.getItem(FORM_KEY));
-  if (locStor) {
+  if (localStorage.getItem(FORM_KEY)) {
+    const locStor = JSON.parse(localStorage.getItem(FORM_KEY));
     // formData = locStor;
     // form.elements.email.value = locStor.email;
     // form.elements.message.value = locStor.message;

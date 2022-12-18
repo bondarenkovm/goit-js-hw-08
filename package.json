@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://bondarenkovm.github.io/goit-js-hw-08",
   "scripts": {
-    "start": "parcel src/*.html --port 7755",
+    "start": "parcel src/*.html --port 1144",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
